@@ -1,4 +1,5 @@
-# GameAchievementsAPI -> related to project https://github.com/miljanpavlovic6/apiGame
+<br />
+# GameAchievementsAPI -> related to project https://github.com/miljanpavlovic6/apiGame <br />
 
 Installing Java 8 on CentOS 7
 --------------------------------------------------------------------------------------------------------------
