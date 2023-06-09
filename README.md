@@ -1,11 +1,13 @@
 # GameAchievementsAPI
 
 Installing Java 8 on CentOS 7
+--------------------------------------------------------------------------------------------------------------
 yum -y update
 yum install java-1.8.0-openjdk
 java -version
 
 Install MariaDB
+--------------------------------------------------------------------------------------------------------------
 sudo yum update -y 
 sudo yum install -y mariadb-server
 sudo systemctl enable mariadb
@@ -50,4 +52,9 @@ VALUES(2,'gfds',1,'Causal_Gamer', 'Win 1000 games. You need to defeat a giant co
 INSERT INTO `development`.`achievement`(`id`,`achievementid`,`game_id`, `displayname`,`description`, `icon`, `displayorder`, `created`,`updated`)
 VALUES(3,'125yhy',1,'Raze_the_Roof', 'I dont think robots will ever be able to automate achievement names, which is kind of weird because robots are able to automate a lot of other things that seem much more difficult.','www.gom.com',3, '2008-7-04','2008-7-04');
 
-git clone 
+DOWNLOAD Spring appp
+--------------------------------------------------------------------------------------------------------------
+git clone https://github.com/miljanpavlovic6/GameAchievementsAPI.git
+cd GameAchievementsAPI
+chmod 777 gameApi.jar
+java -jar gameApi.jar $ //start in detach mode
