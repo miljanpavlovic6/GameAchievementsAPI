@@ -54,7 +54,7 @@ VALUES(3,'125yhy',1,'Raze_the_Roof', 'I dont think robots will ever be able to a
 
 DOWNLOAD Spring appp
 --------------------------------------------------------------------------------------------------------------
-git clone https://github.com/miljanpavlovic6/GameAchievementsAPI.git
-cd GameAchievementsAPI
-chmod 777 gameApi.jar
-java -jar gameApi.jar $ //start in detach mode
+git clone https://github.com/miljanpavlovic6/GameAchievementsAPI.git <br />
+cd GameAchievementsAPI <br />
+chmod 777 gameApi.jar <br />
+java -jar gameApi.jar $ //start in detach mode <br />
