@@ -1,4 +1,4 @@
-# GameAchievementsAPI
+# GameAchievementsAPI -> related to project https://github.com/miljanpavlovic6/apiGame
 
 Installing Java 8 on CentOS 7
 --------------------------------------------------------------------------------------------------------------
@@ -58,4 +58,7 @@ git clone https://github.com/miljanpavlovic6/GameAchievementsAPI.git <br />
 cd GameAchievementsAPI <br />
 chmod 777 gameApi.jar <br />
 java -jar gameApi.jar $ //start in detach mode <br />
-Go to browser and put <ipaddress>:8082/find/21
+Go to browser and put <ipaddress>:8082/find/21 <br />
+  API details from AchievementController: <br />
+  ![image](https://github.com/miljanpavlovic6/GameAchievementsAPI/assets/47641359/25b4698a-9744-4ac1-80b3-8c7490f86f85)
+
