@@ -2,19 +2,19 @@
 
 Installing Java 8 on CentOS 7
 --------------------------------------------------------------------------------------------------------------
-yum -y update
-yum install java-1.8.0-openjdk
-java -version
+yum -y update <br />
+yum install java-1.8.0-openjdk <br />
+java -version <br />
 
 Install MariaDB
 --------------------------------------------------------------------------------------------------------------
-sudo yum update -y 
-sudo yum install -y mariadb-server
-sudo systemctl enable mariadb
-sudo systemctl start mariadb
-sudo mysql_secure_installation (for pass type 'root')
-mysql -uroot -p;
-show databases;
+sudo yum update -y <br />
+sudo yum install -y mariadb-server <br />
+sudo systemctl enable mariadb <br />
+sudo systemctl start mariadb <br />
+sudo mysql_secure_installation (for pass type 'root') <br />
+mysql -uroot -p; <br />
+show databases; <br />
 
 CREATE DATABASE `development` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
