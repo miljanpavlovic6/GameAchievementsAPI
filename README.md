@@ -58,3 +58,4 @@ git clone https://github.com/miljanpavlovic6/GameAchievementsAPI.git <br />
 cd GameAchievementsAPI <br />
 chmod 777 gameApi.jar <br />
 java -jar gameApi.jar $ //start in detach mode <br />
+Go to browser and put <ipaddress>:8082/find/21
